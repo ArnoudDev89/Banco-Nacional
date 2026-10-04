@@ -29,6 +29,8 @@ public class Banco {
             origem.saldo = NovosaldoOrigem;
             double novoSaldoDestino = destino.saldo + valor;
             destino.saldo = novoSaldoDestino;
+
+            System.out.println("ai caraka");
         }
     }
 }
